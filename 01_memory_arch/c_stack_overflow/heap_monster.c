@@ -5,10 +5,9 @@
 int main() {
 
     // aloca na na heap dados muito grandes
-    int *mal = malloc(sizeof(int) * 10000000);
+    int *mal = malloc(sizeof(int) * 10000000); //
 
     free(mal);
 
     return 0;
 }
-
